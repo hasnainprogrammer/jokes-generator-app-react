@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Loader from "./Loader";
 import { toast } from "react-toastify";
 
-const API_URL = `https://v2.jokeapi.dev/joke/Any`;
+const API_URL = `https://v2.jokeapi.dev/joke/Programming`;
 
 function GenerateJoke({ onAddToSavedJokes }) {
   const [joke, setJoke] = useState(null);
