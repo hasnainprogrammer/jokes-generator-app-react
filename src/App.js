@@ -30,7 +30,7 @@ function App() {
 
   return (
     <Router>
-      <div className="mx-50 flex justify-between items-center py-6">
+      <div className="max-w-5xl mx-auto flex justify-between items-center py-6 px-4 sm:px-6">
         <Link to="/">
           <h1 className="text-2xl">Jokes Generator</h1>
         </Link>

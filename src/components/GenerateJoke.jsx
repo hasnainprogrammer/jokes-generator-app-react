@@ -27,7 +27,7 @@ function GenerateJoke({ onAddToSavedJokes }) {
   };
 
   return (
-    <div className="bg-[#0b7285] text-[#e3fafc] mx-100 flex flex-col justify-center items-center space-y-2 p-10 mt-10 shadow-lg">
+    <div className="bg-[#0b7285] text-[#e3fafc] max-w-4xl mx-auto flex flex-col justify-center items-center space-y-4 p-6 sm:p-10 mt-10 shadow-lg text-center">
       <p className="text-lg">
         {joke ? (
           joke.type === "single" ? (
